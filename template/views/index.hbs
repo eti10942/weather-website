@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNprYKa-rQ7UzOEszQAvSQNIUSZceHXlxSlA&usqp=CAU">
+<link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="main-content">
+     {{>header}}
+     <p>Use this site to get weather </p>
+     <form>
+       <input placeholder="location">
+       <button>Search</button>
+     </form>
+     <p id="message-1"></p>
+     <p id="message-2"></p>
+  </div>
+
+   {{>footer}}
+   <script src="/js/appp.js"></script>
+</body>
+
+</html>
